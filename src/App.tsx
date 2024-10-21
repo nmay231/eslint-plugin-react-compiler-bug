@@ -1,4 +1,5 @@
 import './App.css'
+import { ManuallyOptimized } from './components/ManuallyOptimized'
 import { Optimized } from './components/Optimized'
 import { Unoptimized } from './components/Unoptimized'
 
@@ -7,6 +8,7 @@ function App() {
         <div>
             <Optimized />
             <Unoptimized />
+            <ManuallyOptimized />
         </div>
     )
 }
